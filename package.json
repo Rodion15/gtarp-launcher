@@ -1,0 +1,19 @@
+{
+  "name": "gtarp-launcher",
+  "version": "0.0.1",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder",
+    "ship": "electron-builder -p always",
+    "ship:all": "electron-builder -mwl --x64 --ia32 -p always"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Rodion15/gtarp-launcher.git"
+  },
+  "devDependencies": {
+    "electron": "^26.0.0",
+    "electron-builder": "^24.6.3"
+  }
+}
